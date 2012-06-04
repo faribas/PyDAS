@@ -105,6 +105,8 @@ You may wish to write a file `make.inc` that sets certain variables used by
 the Makefiles (e.g. the Fortran compiler). An example of such a file, 
 `make.inc.example`, has been provided.
 
+*Warning!* When building, ensure there isn't a `pydas.pxd` file anywhere in
+your $PYTHONPATH (which there may be if you are an RMG-Py user)
 
 Mac OS X Lion
 -------------
